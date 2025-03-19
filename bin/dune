@@ -1,0 +1,6 @@
+(executable
+ (public_name json_parser)
+ (name main)
+ (libraries combinators parser)
+ (flags
+  (:standard -w -26-32)))
