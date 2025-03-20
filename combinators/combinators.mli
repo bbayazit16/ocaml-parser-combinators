@@ -23,5 +23,5 @@ val string : string parser
 val whitespace : string parser
 val is_alpha : char -> bool
 
-(* Make a parser ignore the trailing and leading whitespaces *)
+(* Makes a parser ignore the trailing and leading whitespaces *)
 val w : 'a parser -> 'a parser
